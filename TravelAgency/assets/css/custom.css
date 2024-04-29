@@ -1,0 +1,27 @@
+:root {
+    --bs-green: #168f78;
+    --bs-orange: #f08c05;
+}
+
+main {padding-top: 100px;}
+
+img.logo {
+    width: 100%;
+    max-width: 200px;
+    /* max-width: 150px; */
+}
+
+.logo-full {
+    width: 100%!important;
+}
+
+.w-66 {width: 66%;}
+
+.w-33 {width: 33%;}
+
+.text-bg-primary {background-color: var(--bs-green)!important;}
+
+.btn-primary {
+    background-color: var(--bs-orange)!important;
+    border-color: var(--bs-orange)!important;
+}
